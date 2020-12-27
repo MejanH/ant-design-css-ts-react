@@ -20,6 +20,7 @@ function App() {
               <Menu.Item key="3">
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/MejanH/ant-design-css-ts-react"
                 >
                   Github
