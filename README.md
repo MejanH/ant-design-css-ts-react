@@ -1,3 +1,12 @@
+# Ant Design example with React & Typescript
+
+**Feedback:**
+
+- Not much styling, Just the prototype Layout to make more flexible
+- Maybe not that much great support. When run this app a warning will showup which needed to fix.
+- Tailwind is far far better than this. Also faster and their own config.js file
+- But as for creating faster layout, menu, etc. this is faster.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

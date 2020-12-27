@@ -1,7 +1,6 @@
 import React from "react";
-import { Breadcrumb, Button, Col, Layout, Menu, Row } from "antd";
+import { Col, Layout, Menu, Row } from "antd";
 import { Content, Footer, Header } from "antd/lib/layout/layout";
-import Sider from "antd/lib/layout/Sider";
 import "./App.less";
 import Title from "antd/lib/typography/Title";
 import Text from "antd/lib/typography/Text";
@@ -18,7 +17,14 @@ function App() {
             <Menu mode="horizontal" style={{ fontWeight: 500, float: "right" }}>
               <Menu.Item key="1">Home</Menu.Item>
               <Menu.Item key="2">Pricing</Menu.Item>
-              <Menu.Item key="3">Github</Menu.Item>
+              <Menu.Item key="3">
+                <a
+                  target="_blank"
+                  href="https://github.com/MejanH/ant-design-css-ts-react"
+                >
+                  Github
+                </a>
+              </Menu.Item>
             </Menu>
           </Col>
         </Row>
